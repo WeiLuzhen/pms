@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 访问MySQL数据库的4大参数 -->
+<db-connection>
+  <driver>com.mysql.jdbc.Driver</driver>
+  <url>jdbc:mysql://localhost:3306/jsd21132</url>
+  <username>root</username>
+  <password>pwd</password>
+</db-connection>

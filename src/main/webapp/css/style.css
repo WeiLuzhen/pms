@@ -1,0 +1,118 @@
+	body 
+	{
+		margin: 0;
+		font-size: 62.5%;
+		font-family: Verdana, Arial, Helvetica, sans-serif;
+		padding: 20px 0;
+		background: #eeeeee;
+	}
+
+	#wrap {
+		width: 820px;
+		margin: 20px auto;
+		background: url(../img/bg.gif) top center repeat-y #FFFFFF;
+	}
+	
+/*-------------------------------------------------------------  */   
+    #header{
+      padding:0 10px;
+    }
+    
+
+	#topheader {
+			padding: 25px 15px 15px 15px;
+			margin: 0 auto 0 auto;
+			background: url(../img/top_left.gif) top left repeat-x #85C329;
+	}
+
+
+	#navigation {
+	    padding-left:20px;
+		background: #74A8F5;
+		border-top: 1px solid #ffffff;
+		height: 25px;
+	}
+	#navigation ul {
+		padding: 0;
+		margin: 0;
+		list-style: none;	
+		font-size: 1.2em;
+		height: 25px;
+	}
+	#navigation ul li {
+		display: inline;
+	}
+	#navigation ul li a {
+		color: #FFFFFF;
+		display: block;
+		text-decoration: none;
+		float: left;
+		line-height: 25px;
+		padding: 0 16px;
+		border-right: 1px solid #ffffff;
+	}
+	#navigation ul li a:hover {
+		background: #5494F3;
+	}
+	
+/*-------------------------------------------------------------------------  */	
+	#middle{
+      margin-top:10px;
+      margin-bottom:20px;
+      
+      padding:0 60px;
+    }
+    
+    
+/*------------------------------------------------------------------------  */
+	.table {
+		margin-bottom: 15px;
+		width: 100%;
+		border-collapse: collapse;
+	}
+	.table_header td {
+		background: url(../img/tableheader-bg.gif) no-repeat left top;
+		padding: 5px 10px;
+		color: rgb(70,122,167);
+		border-top: 1px solid #CBD6DE;
+		border-bottom: 1px solid #ADBECB;
+		font-size: 1.1em;
+		font-weight: bold;
+	}
+	
+	.table_header td {
+		border: 1px solid #CBD6DE;
+	}
+	
+	td {
+		padding:5px 10px;
+	}
+	
+	td a:link, td a:visited,td a:hover{
+    	color: #73A822;
+    	text-decoration: none;
+     }
+     
+    td a:hover {
+		text-decoration: underline;
+    }
+
+	.button{
+	    background: url(../img/button-bg.gif) no-repeat left top
+	}
+
+/*------------------------------------------------------------------------------  */	
+	#footer {
+		background: url(../img/footer.gif) no-repeat center bottom ;
+		color: #FFFFFF;
+		padding: 0 10px 13px 10px;
+	}
+
+	#footer #footer_bg {
+		background: url(../img/footer_bg.gif) repeat-x left bottom #85C329;
+		padding: 15px 15px 25px 15px;
+		border-top: 1px solid #7BB425;
+	}
+
+
+	
